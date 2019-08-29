@@ -1,0 +1,33 @@
+/* header
+you have to set with and margin auto
+the header and nav should be placed in one container
+this will center it and place in the middle but also give space
+display: flex;
+justify-content: space-between;
+make sure to only apply display flex on the inner container
+*/
+
+/* Box Model fix */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Float fix */
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* Other styles */
+
+header{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}

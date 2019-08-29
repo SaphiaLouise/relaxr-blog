@@ -1,0 +1,399 @@
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	background: white;
+	margin: 0;
+	padding: 0px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+header {
+  background: #333A58;
+  padding: 5px
+}
+
+section{
+	background: white;
+	color: black;
+	padding: 20px;
+	display: flex;
+	width: 100%
+}
+
+.post{
+	background-color: white;
+	width: 50%;
+	margin-right: 100px;
+	display: inline-block;
+}
+
+
+footer{
+	background:#333A58;
+	padding: 5px;
+	color: yellow;
+	align-items: center;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+.side ul{
+	list-style: none;
+	width: 50%;
+}
+
+#sign{
+	background-color: yellow
+}
+
+.sign-up{
+	background-color: #333A58
+	padding:5px;
+}
+
+.sign-up{
+	font-family: Arial;
+	font-size: 14px;
+	color: white;
+	padding: 0px 0px 0px 550px;
+	background-color:#333A58 
+
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+
+
+/*body {
+	margin: 0;
+	background: white;
+	font-family: sans-serif;
+}
+
+.container{
+	width: 80%
+	margin: 0 auto;
+}
+
+header {
+	background: #333A58;
+}
+
+.logo{
+	padding: 10px 0;
+}
+
+nav {
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 0;
+}
+
+nav a{
+	color: #444;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+
+
+/*
+
+/* Box Model fix 
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.box {
+border: 1px solid white;
+background-color: #f3f3f3;
+padding-left: 50px;
+}
+
+header, footer{
+background-color: #033048;
+width: 100%;
+height: 70px;
+}
+
+* {
+margin: 5px;
+padding: 0;
+box-sizing: border-box;
+}
+
+.box {
+border: 1px solid black;
+background-color: #f3f3f3;
+padding-left: 50px;
+}
+
+
+.header, .intro{
+	background-color: #333A58;
+	display:flex;
+	list-style: none;
+  justify-content: space-around;
+}
+
+footer{
+	background-color: #333A58
+}
+
+section{
+	background-color: white;
+	color: black;
+	padding: 20px;
+}
+
+div{
+	background-color: white;
+	display: inline-block;
+	height: auto;
+}
+
+.upper{
+	display: block;
+	width: 80%;
+}
+
+.right{
+	display: flex;
+	width: 20%;
+}
+
+.sign-up{
+	background-color: yellow;
+}
+
+#join{
+	background-color:#333A58;
+}
+
+.foot{
+	background-color: #333A58;
+}
+#bottom{
+	align-items: center;
+}
+
+/*
+.flex-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+	margin: auto;
+}
+
+.entire{
+	display: flex;
+}
+
+.first{
+	margin: 20px 25px;
+}
+.sidebar{
+	width: 20%;
+}
+
+.blog{
+	width: 50%;
+}
+
+
+
+h1 {
+font-style: 25px;
+margin:20px;
+}
+
+/*
+.main{
+display: flex;
+width: 100%;
+height: 500px;
+}
+
+.top.box.right{
+font-family: Oswald;
+font-size: 15px;
+}
+
+
+.sidebar {
+width: 20%;
+}
+
+change the color of links a;link
+
+header {
+background-image: url("../images/header_bg.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+height: 500px;
+padding: 30px 70px 70px	70px;
+font-family: Open Sans;
+text-align: center;
+}
+
+header h1 {
+font-weight: 800;
+font-size: 48px;
+color:	white;
+text-align: center;
+margin-top: 20px;
+}
+
+header p {
+font-size: 38px;
+font-weight: 600;
+color: white;
+text-align: center;
+margin: 100px;
+}
+
+header a {
+background-color: #f9e42e;
+width: 600px;
+border: 10px solid #f9e42e;
+padding: 10px;
+margin-bottom: 40px;
+border-radius: 5px;
+font-weight: 800;
+font-size: 28px;
+}
+
+.benefits {
+font-weight: 600;
+font-size: 40px;
+font-family: Open Sans;
+color: black;
+margin:center;
+padding: 50px;
+}
+
+.benefits h2 {
+font-weight: 600px;
+font-size: 40px;
+}
+
+.benefits .row {
+font-weight: 300;
+font-size: 36px;
+color: black;
+}
+
+li.benefits = any list item with that particular class will get changes
+.benefits li = any list item within an element with that particular class will get changes
+
+.benefits li {
+	font-weight: 300;
+font-size: 26px;
+color: #121212
+margin: center;
+}
+
+#section-two {
+background-image: url("../images/testimonial_bg.jpg");
+color: white;
+margin: 20px;
+padding: 50px;
+text-align: center;
+}
+
+#section-two .quote {
+font-weight: 200;
+font-style: italic;
+font-size: 36px;
+}
+
+#section-two p {
+font-weight: 600;
+font-size: 36px;
+}
+
+.sign-up{
+font-weight: 800;
+font-size: 28px;
+border-radius: 5px 
+width: 900;
+padding: 80px;
+margin: 10px 0px 0px 0px;
+text-align: center;
+}
+
+footer {
+background-color: #121212;
+padding: 40px;
+margin-bottom: 60px;
+text-align: center;
+}
+footer span {
+font-color: #f9e42e
+font-weight: 800px;
+font-size: 48px;
+}
+footer a {
+text-align: center;
+}
+
+footer p { 
+color: #f9e42e; 
+font-family: Open Sans;
+font-weight: 800px;
+font-size: 48px;
+}
+*/
