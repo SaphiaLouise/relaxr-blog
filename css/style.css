@@ -55,6 +55,12 @@ header::after {
 .side ul{
 	list-style: none;
 	width: 50%;
+	padding: 0px
+}
+
+h3{
+	width: 50%;
+	padding: 0px;
 }
 
 #sign{
@@ -71,8 +77,6 @@ header::after {
 	font-size: 14px;
 	color: white;
 	padding: 0px 0px 0px 550px;
-	background-color:#333A58 
-
 }
 
 
